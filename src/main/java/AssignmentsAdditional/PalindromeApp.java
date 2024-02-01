@@ -1,6 +1,7 @@
 package AssignmentsAdditional;
 
-public class PalindromeChecker {
+public class PalindromeApp {
+
     public static boolean isPalindrome(int number) {
         int originalNumber = number;
         int reversedNumber = 0;

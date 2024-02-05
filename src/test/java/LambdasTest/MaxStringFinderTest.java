@@ -14,7 +14,6 @@ public class MaxStringFinderTest {
     public void testFindMax() {
         MaxStringFinder finder = new MaxStringFinder();
 
-        // Test case with normal strings
         List<String> inputList1 = Arrays.asList("apple", "banana", "orange", "kiwi", "grape");
         String result1 = finder.findMax(inputList1);
         assertEquals("orange", result1);

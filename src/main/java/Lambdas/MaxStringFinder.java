@@ -6,7 +6,7 @@ public class MaxStringFinder {
 
     public String findMax(List<String> strings) {
         return strings.stream()
-                .max(String::compareTo)  // Natural ordering
+                .max(String::compareTo)
                 .orElse(null);
     }
 }
